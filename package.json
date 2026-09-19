@@ -1,0 +1,19 @@
+{
+  "name": "liverpool-qa-automation",
+  "version": "1.0.0",
+  "description": "Playwright E2E automation challenge for Liverpool search results.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.1",
+    "typescript": "^5.9.2"
+  }
+}
